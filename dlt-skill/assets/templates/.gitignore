@@ -1,0 +1,59 @@
+# dlt Project .gitignore
+
+# CRITICAL: Never commit secrets!
+.dlt/secrets.toml
+
+# dlt data directory
+.dlt/.sources
+.dlt/pipelines/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Credentials
+*.json  # Be careful if you have service account JSON files
+credentials.json
+service-account.json
+
+# Database files (if using DuckDB locally)
+*.duckdb
+*.db
+
+# Logs
+*.log

@@ -1,0 +1,24 @@
+# Build artifacts
+*.skill
+
+# IDE and tool directories
+.agents/
+.claude/
+.cursor/
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+.venv
+
+# OS
+.DS_Store
+Thumbs.db

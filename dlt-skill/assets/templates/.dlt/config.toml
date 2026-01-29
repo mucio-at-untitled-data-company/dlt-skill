@@ -1,0 +1,50 @@
+# dlt Configuration File
+#
+# This file contains non-sensitive configuration for your dlt pipeline.
+# Add sensitive credentials to secrets.toml instead.
+#
+# Configuration hierarchy:
+# [sources.<source_name>] - Source-specific configuration
+# [destination.<destination_name>] - Destination-specific configuration
+# [extract/normalize/load] - Pipeline stage configuration
+# [runtime] - Runtime configuration
+
+# Example: Source configuration
+# [sources.my_source]
+# base_url = "https://api.example.com/v1"
+# timeout = 30
+# batch_size = 100
+
+# Example: Destination configuration
+# [destination.bigquery]
+# location = "US"
+# project_id = "my-project"
+
+# [destination.duckdb]
+# credentials = "data/database.duckdb"
+
+# [destination.snowflake]
+# database = "ANALYTICS"
+# warehouse = "COMPUTE_WH"
+# role = "LOADER"
+
+# Example: Performance tuning
+# [extract]
+# workers = 10
+# max_parallel_items = 50
+
+# [normalize]
+# workers = 4
+
+# [load]
+# workers = 20
+
+# Example: Data writer configuration
+# [data_writer]
+# buffer_max_items = 5000
+# file_max_items = 100000
+
+# Example: Runtime configuration
+# [runtime]
+# log_level = "INFO"
+# data_dir = "/path/to/data/directory"
