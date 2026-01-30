@@ -17,13 +17,13 @@ This repository contains expert assistant skills designed to help with data engi
 Install skills using the Claude Code CLI:
 
 ```bash
-npx @anthropic-ai/claude-code skills add untitled-data-company/data-skills --skill <skill-name>
+npx skills add untitled-data-company/data-skills --skill <skill-name>
 ```
 
 For example, to install the dlt-skill:
 
 ```bash
-npx @anthropic-ai/claude-code skills add untitled-data-company/data-skills --skill dlt-skill
+npx skills add untitled-data-company/data-skills --skill dlt-skill
 ```
 
 ### Verify Installation

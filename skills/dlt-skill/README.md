@@ -33,7 +33,7 @@ This Claude skill provides comprehensive guidance for building data pipelines us
 Run this command in your terminal:
 
 ```bash
-npx @anthropic-ai/claude-code skills add untitled-data-company/data-skills --skill dlt-skill
+npx skills add untitled-data-company/data-skills --skill dlt-skill
 ```
 
 This will automatically install the skill into your Claude Code environment.
