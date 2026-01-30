@@ -5,6 +5,14 @@ All notable changes to the dlt-skill will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [Unreleased]
+
+### Changed
+- Reorganized repository structure with `skills/` folder
+- Moved dlt-skill to `skills/dlt-skill/`
+- Updated README.md as repository overview with links to individual skills
+- Added skill-specific README.md for dlt-skill
+
 ## [0.1.0] - 2026-01-30
 
 ### Added
