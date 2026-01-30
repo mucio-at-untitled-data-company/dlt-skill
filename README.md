@@ -30,7 +30,17 @@ This Claude skill provides comprehensive guidance for building data pipelines us
 
 ## Installation
 
-Install the skill in your Claude environment by loading the `dlt-skill.skill` package.
+Run this command in your terminal:
+
+```bash
+npx skills add untitled-data-company/dlt-skill
+```
+
+This will automatically install the skill into your Claude Code environment.
+
+### Verify Installation
+
+After installation, the skill should appear when you run `/skills` in Claude Code.
 
 ## Usage
 
