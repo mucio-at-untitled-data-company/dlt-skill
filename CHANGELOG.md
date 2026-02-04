@@ -7,10 +7,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 When updating: compare with the repo since the last release (e.g. `git log v0.2.0..HEAD` or `git diff v0.2.0..HEAD`) and list changes per skill or area. Keep entries short and compact.
 
-## [Unreleased]
-
-_Nothing yet._
-
 ## [0.2.1] - 2026-02-05
 
 ### Added
